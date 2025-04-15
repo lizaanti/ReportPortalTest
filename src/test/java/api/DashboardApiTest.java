@@ -53,5 +53,6 @@ public class DashboardApiTest {
                 .then().log().all()
                 .statusCode(400)
                 .body("error", notNullValue());
+
     }
 }
